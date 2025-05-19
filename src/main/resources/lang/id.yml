@@ -1,0 +1,22 @@
+general:
+  category-notfound: "Kategori {category} tidak ditemukan!"
+  no-permission: "&cKamu tidak memiliki izin!"
+  no-thereitem: "&cTidak ada item di kategori ini!"
+add:
+  onlyPlayer: "&cPerintah ini hanya untuk pemain!"
+  onlynumber: "&cPastikan harga dan jual berupa angka!"
+  noHandItem: "&cKamu tidak memegang item!"
+  usage: "Usage: /shop add <kategori> <harga> <jual>"
+  success: "Berhasil menambahkan &d{item} &fseharga &dRp{price} &fdi kategori &d{category}"
+buy:
+  inventoryfull: "&cTransaksi batal. Penyimpanan kamu penuh!"
+  no-enoughmoney: "&cKamu tidak memiliki uang cukup!"
+  success: "&aBerhasil membeli &d{name} &asebanyak x&d{amount} &aHarga &dRp{price}"
+set:
+  usage: "Usage: /shop set <kategori>"
+  success: "&aBerhasil merubah item kategori &d{category} &amenjadi &d{material}"
+sell:
+  no-sell: "&cItem {item} tidak bisa dijual"
+  no-sell-batch: "&cTidak ada item bisa dijual!"
+  success: "&aBerhasil menjual &d{item} &asebanyak x&d{amount} &a seharga &dRp.{price}"
+  success-batch: "&aBerhasil menjual item seharga &dRp.{price}"

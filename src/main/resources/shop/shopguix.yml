@@ -1,0 +1,49 @@
+MainMenu:
+  - name: "Natural Blocks"
+    description: "Menjual Berbagai Natural Blocks"
+    items: "GRASS_BLOCK"
+    in: [ ]
+  - name: "Wood"
+    description: "Menjual Berbagai Wood Blocks"
+    items: "OAK_LOG"
+    in: [ ]
+  - name: "Building Block"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "STONE_BRICKS"
+    in: [ ]
+  - name: "Decoration"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "CARTOGRAPHY_TABLE"
+    in: [ ]
+  - name: "Colored Block"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "ORANGE_WOOL"
+    in: [ ]
+  - name: "Farming"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "HAY_BLOCK"
+    in: [ ]
+  - name: "Food"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "WHEAT"
+    in: [ ]
+  - name: "Ores"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "NETHERITE_INGOT"
+    in: [ ]
+  - name: "Tools & Armor"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "NETHERITE_CHESTPLATE"
+    in: [ ]
+  - name: "Mob Drops"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "SPAWNER"
+    in: [ ]
+  - name: "Dye"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "LIGHT_BLUE_DYE"
+    in: [ ]
+  - name: "Redstone"
+    description: "Menjual Berbagai Decoration Blocks"
+    items: "REDSTONE"
+    in: [ ]

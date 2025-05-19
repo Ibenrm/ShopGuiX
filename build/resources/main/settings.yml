@@ -1,0 +1,28 @@
+lang: id
+serverName: "[ SERVERNAME ]"
+textPage: "[ PAGE {number} ]"
+sellGUI: "[ SELL GUI ]"
+textMainMenu: "[ SERVER SHOP ]"
+textPrice: "&6Harga :"
+textPrev: "&d← Sebelumnya"
+textNext: "&dSelanjutnya →"
+textOut: "&cKeluar"
+textConfirm: "&aConfirm"
+textMore: "&eMore Option"
+textCancel: "&cCancel"
+
+itemSelector:
+  lore:
+    - "&bMenjual &d{name}"
+    - ""
+    - "&bHarga : &6{price}"
+    - ""
+    - "&l&bKlik Untuk Melihat Items"
+
+stackSelector:
+  lore:
+    - "Jumlah: {amount}"
+    - ""
+    - "Harga: Rp{price}"
+    - ""
+    - "&l&bKlik Confirm untuk bayar"
