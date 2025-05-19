@@ -46,6 +46,11 @@ public class ShopCommand implements CommandExecutor {
                             Lang.getInstance().getConfig().getString("add.usage")));
                     return false;
                 }
+                if (!sender.hasPermission("shop.op")) {
+                    player.sendMessage(prefix + " " + ChatColor.translateAlternateColorCodes('&',
+                            Lang.getInstance().getConfig().getString("general.no-permission")));
+                    return false;
+                }
 
                 String categoryInput = args[1];
                 String categoryNormalized = normalizeCategoryName(categoryInput);
@@ -174,6 +179,12 @@ public class ShopCommand implements CommandExecutor {
                 Player pl = (Player) sender;
                 if (args.length < 2) {
                     pl.sendMessage(prefix + " " + ChatColor.translateAlternateColorCodes('&', Lang.getInstance().getConfig().getString("set.usage")));
+                    return false;
+                }
+
+                if (!sender.hasPermission("shop.op")) {
+                    pl.sendMessage(prefix + " " + ChatColor.translateAlternateColorCodes('&',
+                            Lang.getInstance().getConfig().getString("general.no-permission")));
                     return false;
                 }
                 String categoryName = normalizeCategoryName(args[1]);
