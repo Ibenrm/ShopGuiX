@@ -11,6 +11,11 @@
 - - Customize Shop Title GUI (Settings.yml)
 - - Multiple Layer ShopGUI
 
+## Permission:
+- player.shop
+- player.sell
+- shop.op
+
 ## Warning
 **NOTE:** This plugin beta version 0.0.1 if Bugs or Error you can give pull request or issues
 
