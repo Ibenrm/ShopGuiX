@@ -9,6 +9,7 @@
 - - Customize shop & sell item shop
 - - Custom Language (Default: id)
 - - Customize Shop Title GUI (Settings.yml)
+- - Multiple Layer ShopGUI
 
 ## Warning
 **NOTE:** This plugin beta version 0.0.1 if Bugs or Error you can give pull request or issues
